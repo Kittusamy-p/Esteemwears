@@ -1,0 +1,169 @@
+@import "tailwindcss";
+
+/* =========================
+   🌈 ESTEEM INNERWEARS THEME
+   ========================= */
+
+:root {
+  --bg: #ffffff;
+  --text: #0f0f0f;
+
+  --primary-yellow: #facc15;
+  --primary-blue: #2563eb;
+  --primary-red: #ef4444;
+
+  --soft-gray: #f3f4f6;
+}
+
+/* Base styles */
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family:
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    sans-serif;
+  font-weight: 500;
+}
+
+/* Links */
+a {
+  color: var(--primary-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* =========================
+   🧭 NAVBAR STYLE
+   ========================= */
+
+nav {
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* =========================
+   🧱 CARD SYSTEM
+   ========================= */
+
+.card {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+   🔘 BUTTONS
+   ========================= */
+
+.btn {
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-yellow {
+  background: var(--primary-yellow);
+  color: black;
+}
+
+.btn-yellow:hover {
+  background: #eab308;
+}
+
+.btn-blue {
+  background: var(--primary-blue);
+  color: white;
+}
+
+.btn-blue:hover {
+  background: #1d4ed8;
+}
+
+.btn-red {
+  background: var(--primary-red);
+  color: white;
+}
+
+.btn-red:hover {
+  background: #dc2626;
+}
+
+/* =========================
+   🏷️ BADGES
+   ========================= */
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badge-yellow {
+  background: #fef9c3;
+  color: #92400e;
+}
+
+.badge-blue {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.badge-red {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* =========================
+   🖼 IMAGE EFFECTS
+   ========================= */
+
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
+/* =========================
+   ✨ SECTION HEADINGS
+   ========================= */
+
+h1,
+h2,
+h3 {
+  color: #111;
+  letter-spacing: -0.02em;
+}
+
+/* =========================
+   🌟 HERO BACKGROUND OPTION
+   ========================= */
+
+.hero {
+  background: linear-gradient(135deg, #ffffff, #fef9c3, #dbeafe);
+}
+
+/* =========================
+   🔥 PRODUCT GRID SPACING
+   ========================= */
+
+.grid {
+  gap: 16px;
+}
