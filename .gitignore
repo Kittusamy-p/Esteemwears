@@ -47,3 +47,4 @@ pnpm-debug.log*
 
 # windows
 Thumbs.db
+.env*.local

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://esteemwears.in
+
+# Sitemaps
+Sitemap: https://esteemwears.in/sitemap.xml
