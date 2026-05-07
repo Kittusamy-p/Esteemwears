@@ -173,7 +173,7 @@
         "rating": 4.2
       }
     ],
-    "details": ["100% cotton", "Multicolor", "Pack of 5", "Ideal for boys"]
+    "details": ["100% cotton", "Multicolor", "Pack of 5", "Ideal for girls"]
   },
   {
     "slug": "esteem-girls-pure-cotton-innerwear-printed-drawerpack-of-5",
@@ -385,5 +385,54 @@
       "Pack of 5 bright colors",
       "pattern: Strips"
     ]
+  },
+  {
+    "slug": "Esteem-Girls-Panties-pack-of-10",
+    "name": "Esteem Girls Panties (Pack of 10)",
+    "images": [
+      "https://res.cloudinary.com/desmywzoz/image/upload/v1777359483/Esteem_Womens_Cotton_Hipster_Panty_Pack_of_10_aknuqq.avif",
+      "https://res.cloudinary.com/desmywzoz/image/upload/v1777359632/fspqw_512_uugcz9.avif",
+      "https://res.cloudinary.com/desmywzoz/image/upload/v1777359632/mssch_512_wjaa4j.avif"
+    ],
+    "sizeChart": null,
+    "sizes": [
+      {
+        "size": "9 - 10 years",
+        "price": 369
+      },
+      {
+        "size": "11 - 12 years",
+        "price": 369
+      },
+      {
+        "size": "13 - 14 years",
+        "price": 369
+      },
+      {
+        "size": "15 - 16 years",
+        "price": 369
+      }
+    ],
+    "links": [
+      {
+        "platform": "flipkart",
+        "seller": "KeyarExports",
+        "url": "https://www.flipkart.com/esteem-panty-girls/p/itm470d906468061?pid=KPAHDYE2UXSDEKJG&lid=LSTKPAHDYE2UXSDEKJGDZSKEP",
+        "rating": 3.7
+      },
+      {
+        "platform": "Amazon",
+        "seller": "Esteem innerwears",
+        "url": "https://www.amazon.in/Esteem-Comfortable-Innerwear-Multi-Color-Multicolor/dp/B0FCXZPNVV",
+        "rating": 4.0
+      },
+      {
+        "platform": "meesho",
+        "seller": "Esteem Wears",
+        "url": "https://www.meesho.com/esteem-womens-cotton-hipster-panty-pack-of-10/p/94cgai",
+        "rating": 4.8
+      }
+    ],
+    "details": ["100% cotton", "Multicolor", "Pack of 10", "Ideal for girls"]
   }
 ]
